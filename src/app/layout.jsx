@@ -27,8 +27,6 @@ export default function RootLayout({ children }) {
           <div className="absolute -top-30 -left-30 w-100 h-100 bg-purple-300/20 blur-[120px] rounded-full" />
           <div className="absolute -bottom-30 -right-30 w-100 h-100 bg-cyan-200/20 blur-[120px] rounded-full" />
         </div>
-
-        {/* App MUST NOT be inside glow layer */}
         <AppProvider>
           {children}
         </AppProvider>
