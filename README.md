@@ -1,36 +1,176 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# IntelliCode AI
 
-## Getting Started
+IntelliCode AI is an AI-powered code explanation application that helps developers understand source code quickly and efficiently. Simply paste your code, select the programming language and preferred explanation language, and receive a clear AI-generated explanation within seconds.
 
-First, run the development server:
+The application is designed for students, beginners, developers, and anyone who wants to understand unfamiliar code more effectively.
+
+---
+
+## 🚀 Features
+
+### AI-Powered Code Explanations
+
+Generate detailed explanations for code snippets using AI.
+
+### Programming Language Selection
+
+Choose the programming language of the code you want to explain.
+
+Supported languages include:
+
+* JavaScript
+* TypeScript
+* Python
+* Java
+* C
+* C++
+* C#
+* PHP
+* Go
+* Rust
+* Kotlin
+* Swift
+* SQL
+* HTML
+* CSS
+
+### Human Language Selection
+
+Receive explanations in your preferred language.
+
+Examples include:
+
+* English
+* Hindi
+* Bengali
+* Spanish
+* French
+* German
+* Japanese
+* Chinese
+
+### Copy Explanation
+
+Copy generated explanations with a single click for easy reuse.
+
+### Modern User Interface
+
+* Clean layout
+* Glassmorphism-inspired design
+* Responsive user experience
+* Built using ShadCN UI and Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* Tailwind CSS
+* ShadCN UI
+
+### State Management
+
+* React Context API
+
+### AI Integration
+
+* Groq AI API
+
+---
+
+## 🤖 AI Model
+
+This project uses Groq AI for generating code explanations.
+
+The AI analyzes the provided source code and generates easy-to-understand explanations in the selected human language.
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env.local` file in the project root:
+
+```env
+GROQ_API_KEY=your_groq_api_key
+```
+
+---
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Mslight16/IntelliCode-AI.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd intellicode-ai
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🎯 How It Works
 
-To learn more about Next.js, take a look at the following resources:
+1. Paste your source code into the editor.
+2. Select the programming language.
+3. Select the language for the explanation.
+4. Click the Explain button.
+5. Groq AI processes the code.
+6. The application displays a detailed explanation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🌟 Use Cases
 
-## Deploy on Vercel
+* Learning new programming concepts
+* Understanding unfamiliar code
+* Preparing for technical interviews
+* Reviewing code snippets
+* Educational purposes
+* Beginner-friendly code learning
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔒 Security
+
+* API keys are stored using environment variables.
+* No user authentication is required.
+* Requests are processed in real time.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+Developed by Roshni Verma.
+
+Built with Next.js, Tailwind CSS, ShadCN UI, and Groq AI.
