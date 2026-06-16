@@ -20,7 +20,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-screen  text-white bg-linear-to-br from-slate-950 via-slate-900 to-slate-950">
+      <body className="min-h-screen px-4 py-4  text-white bg-linear-to-br from-slate-950 via-slate-900 to-slate-950">
 
         {/* Glow background ONLY */}
         <div className=" fixed inset-0 -z-10">
