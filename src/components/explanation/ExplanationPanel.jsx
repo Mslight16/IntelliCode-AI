@@ -39,7 +39,27 @@ export default function ExplanationPanel() {
       {/* Content */}
       <div className="flex-1 overflow-auto prose max-w-none">
         {explanation ? (
-          <ReactMarkdown>{explanation}</ReactMarkdown>
+          <ReactMarkdown
+  components={{
+    h1: ({ children }) => (
+      <h1 className="text-2xl font-bold mb-4">{children}</h1>
+    ),
+
+    h2: ({ children }) => (
+      <h2 className="text-xl font-semibold mb-3">{children}</h2>
+    ),
+
+    p: ({ children }) => (
+      <p className="leading-7 mb-4">{children}</p>
+    ),
+
+    code: ({ children }) => (
+      <code className="font-mono text-sm">{children}</code>
+    ),
+  }}
+>
+  {explanation}
+</ReactMarkdown>
         ) : (
           <div className="flex h-full items-center justify-center text-center">
             <div>
